@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock-Paper-Scissors</title>
+    <link rel = "icon" href = "Images/Rock+Paper+Scissors+Logo.png" type = "image/x-icon">
+    <link rel = "stylesheet" href = "styles.css">
+    <script src="javascript.js"></script>
+</head>
+<body>
+    <div class="header">
+        <h1> <bold>Rock-Paper-Scissors</bold></h1>
+    </div>
+    <div class="body">
+        <h1>Choose your weapon</h1>
+        <h2>5 Round Game</h2>
+        <div class="live">
+           <h3 id="playerChoice">?</h3>
+           <h3 id="computerChoice">?</h3>
+        </div>
+        <div class="live">
+            <h4 id="playerScore"></h4> 
+            <h4 id="computerScore"></h4>
+        </div>
+        <h1 id="winner"></h1>
+        <button id="buttonPlayAgain" onclick="playAgain()"></button>
+        <div class="buttons">
+            <button class="choices" id="👊" onclick="getChoices(this.id)">👊</button>
+            <button class="choices" id="✋" onclick="getChoices(this.id)">✋</button>
+            <button class="choices" id="✌️" onclick="getChoices(this.id)">✌️</button>
+        </div>
+    </div>
+</body>
+</html>

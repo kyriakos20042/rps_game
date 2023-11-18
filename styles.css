@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header h1 {
+    background-color:rgb(27,27,27);
+    color:rgba(255, 255, 0, 0.701);
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 3%;
+}
+body {
+    background-color: rgb(37,37,37);
+}
+.body h1 {
+    text-align: center;
+    color: whitesmoke;
+    padding:2%;
+}
+
+.body h2 {
+    text-align: center;
+    color:whitesmoke;
+}
+
+.body .live {
+    display: flex;
+}
+.body .live h3, h4 {
+    flex:49.5%;
+    text-align: center;
+    display: inline;
+    font-size: 4rem;
+    color:whitesmoke;
+}
+.body .live h4 {
+    font-size: 1.5rem;
+    color:whitesmoke;
+}
+.body .buttons {
+    display: flex;
+    margin-top:2%;
+    margin-left: 20%;
+    margin-right:20%;
+    gap:5px;
+} 
+.body .choices {
+    cursor:pointer;
+    border-radius: 8px;;
+    border:ridge 2px rgb(27,27,27);
+    gap:1px;
+    height:10rem;;
+    flex:25%;
+    font-size:5rem;
+    background-color: rgb(41, 40, 40);
+    text-align:center;
+}
+#buttonPlayAgain {
+    padding:1rem;
+    margin-left:45%;
+    cursor:pointer;
+    color:whitesmoke;
+    border-radius: 8px;
+    font-size: 25px;
+    border:none;
+    background-color: rgb(37,37,37);
+}
